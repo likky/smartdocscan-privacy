@@ -1,0 +1,1 @@
+# smartdocscan-privacy
