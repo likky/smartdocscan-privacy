@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Cloud Smart Doc Scan</title>
+<style>
+  :root {
+    --bg: #fff;
+    --text: #1d1d1f;
+    --muted: #86868b;
+    --accent: #0071e3;
+    --border: #d2d2d7;
+    --radius: 12px;
+    --max-w: 720px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    color: var(--text);
+    background: #f5f5f7;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #0071e3, #005bb5);
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+  }
+  header p {
+    margin-top: 6px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.8);
+  }
+
+  /* ── Main Content ── */
+  main {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 36px 20px 60px;
+  }
+  .card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 18px 0 8px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); font-size: 13px; }
+  .highlight-box {
+    background: #f5f5f7;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1d1d1f;
+  }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 28px 24px;
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Cloud Smart Doc Scan · 云帆智能文档扫描</p>
+</header>
+
+<main>
+
+<div class="card">
+  <h2>Overview</h2>
+  <p>
+    <strong>Cloud Smart Doc Scan</strong> ("the Software") takes user privacy seriously.
+    This Privacy Policy explains how we collect, use, and protect information when you use the Software.
+  </p>
+  <div class="highlight-box">
+    The Software is an <strong>offline desktop application</strong> — document scanning, OCR text recognition,
+    layout analysis, table recognition, and formula recognition are all performed
+    <strong>locally on your Mac</strong>. <strong>Your documents and images are never uploaded to any remote server.</strong>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Information We Collect</h2>
+
+  <h3>What We Do NOT Collect</h3>
+  <ul>
+    <li><strong>Document Content</strong>: All documents, images, and PDFs are processed locally and never uploaded to any server.</li>
+    <li><strong>Personal Information</strong>: We do not collect names, emails, phone numbers, addresses, or any other personal data.</li>
+    <li><strong>Location Data</strong>: We do not access GPS or network-based location.</li>
+    <li><strong>Other Files</strong>: We only access document/image files that you actively choose to import.</li>
+  </ul>
+
+  <h3>Data That May Be Generated</h3>
+  <ul>
+    <li><strong>Crash Diagnostic Data</strong>: If the app crashes, macOS may generate a crash report stored locally on your device. These are not automatically sent to us. You can manage them in the Console app.</li>
+    <li><strong>App Store License Verification</strong>: When installed via the Mac App Store, Apple verifies your purchase status. This is standard Apple platform behavior; we do not store or forward this data.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>How We Use Data</h2>
+  <ul>
+    <li><strong>Local OCR Inference</strong>: Document recognition runs locally on your Mac using built-in AI models (including Apple Silicon Neural Engine). No internet required.</li>
+    <li><strong>Local Storage Only</strong>: Recognition results and exported files are saved only to your specified local paths. No cloud storage is used.</li>
+    <li><strong>License Verification</strong>: Purchase status is verified solely through Apple's StoreKit framework. No document data is transmitted.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>Network Usage</h2>
+  <p>The Software accesses the network only for:</p>
+  <ul>
+    <li><strong>App Store License Verification</strong>: Validating purchase status and app receipts.</li>
+    <li><strong>Purchase Operations</strong>: When you tap the Buy button, StoreKit processes the in-app purchase.</li>
+  </ul>
+  <p class="muted" style="margin-top:10px">Core OCR, scanning, and recognition features all run offline without a network connection.</p>
+</div>
+
+<div class="card">
+  <h2>Third-Party Services</h2>
+  <p>The Software <strong>does not integrate</strong> any third-party analytics SDKs, advertising SDKs, or tracking services.</p>
+  <p style="margin-top:8px">License verification uses Apple's built-in <strong>StoreKit</strong> framework. Data processing by StoreKit is governed by the
+    <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a>.</p>
+</div>
+
+<div class="card">
+  <h2>Data Security</h2>
+  <p>
+    All document processing is performed locally on your Mac. Your data never leaves your device,
+    eliminating the risk of exposure during transmission or cloud storage.
+    We recommend enabling macOS <strong>FileVault</strong> full-disk encryption for additional local protection.
+  </p>
+</div>
+
+<div class="card">
+  <h2>Children's Privacy</h2>
+  <p>This Software is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+</div>
+
+<div class="card">
+  <h2>Policy Updates</h2>
+  <p>This Privacy Policy may be updated from time to time. Updates will be distributed with new versions of the Software and posted on this page.</p>
+  <p class="muted" style="margin-top:10px">Last updated: July 26, 2026</p>
+</div>
+
+<div class="card">
+  <h2>Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, please contact:</p>
+  <p style="margin-top:8px">
+    📧 <a href="mailto:tianya1110@gmail.com">tianya1110@gmail.com</a>
+  </p>
+</div>
+
+</main>
+
+<footer>
+  © 2026 Cloud Smart Doc Scan · 云帆智能文档扫描 — All Rights Reserved.
+</footer>
+
+</body>
+</html>
